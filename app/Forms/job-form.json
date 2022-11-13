@@ -1,0 +1,98 @@
+[
+    {
+        "label": "Full Name",
+        "name": "name",
+        "placeholder": "Applicant's name",
+        "rules": "required|min:5"
+    },
+    {
+        "name": "date_of_birth",
+        "type": "date",
+        "placeholder": "Birthday",
+        "class": "form-control",
+        "id": "birthday"
+    },
+    {
+        "name": "photo",
+        "type": "file",
+        "placeholder": "Applicants photo",
+        "class": "form-control-file",
+        "id": "photo"
+    },
+    {
+        "name": "phone",
+        "type": "tel",
+        "placeholder": "Applicants phone",
+        "class": "form-control",
+        "id": "phone"
+    },
+    {
+        "name": "email",
+        "type": "email",
+        "class": "form-control",
+        "id": "email"
+    },
+    {
+        "name": "password",
+        "type": "password",
+        "class": "form-control",
+        "id": "password"
+    },
+    {
+        "name": "gender",
+        "type": "select",
+        "class": "form-control",
+        "id": "gender",
+        "choices": {
+            "male": "Male",
+            "female": "Female",
+            "other": "Other"
+        },
+        "selected": "male"
+    },
+    {
+        "name": "nationality"
+    },
+    {
+        "name": "national_id_card_number"
+    },
+    {
+        "name": "payment_method",
+        "type": "select",
+        "choices": {
+            "bkash": "bkash",
+            "dutch_bangla": "dutch_bangla",
+            "bank": "bank",
+            "cash": "cash",
+            "rocket": "rocket",
+            "nagod": "nagod",
+            "other": "other"
+        },
+        "selected": "bkash"
+    },
+    {
+        "label": "***Enter Payment Account Number",
+        "name": "payment_account_number",
+        "type": "tel",
+        "placeholder": "Enter your payment methods account number"
+    },
+    {
+        "label": "***Enter Payment Amount",
+        "name": "payment_amount",
+        "type": "number",
+        "placeholder": "Enter your payment amount"
+    },
+    {
+        "label": "***Enter the Transaction ID / Receipt Number you get after payment",
+        "name": "transaction_number",
+        "type": "text",
+        "placeholder": "Collect and insert Transaction ID/Number after payment"
+    },
+    {
+        "label": "Apply Now",
+        "name": "submit_button",
+        "type": "submit",
+        "class": "btn btn-lg btn-info btn-block",
+        "id": "submit_button"
+    }
+]
